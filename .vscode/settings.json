@@ -1,5 +1,7 @@
 {
     "clangd.fallbackFlags": [
-        "-I{workspaceFolder}"
+        "-I{workspaceFolder}/include",
+        "-I/home/triton/tools/llvm/include",
+        "-I/home/triton/tools/llvm/include/llvm-c"
     ]
 }
